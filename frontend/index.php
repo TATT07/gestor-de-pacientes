@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<div class="background">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+</div>
+
+
+
+
     <div class="background"></div>
     <div class="container">
         <div class="logo">

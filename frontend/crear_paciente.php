@@ -66,11 +66,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class="form-group">
                 <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono" name="telefono" required>
+                <input type="text" id="telefono" name="telefono" pattern="[0-9]+" inputmode="numeric" required oninvalid="this.setCustomValidity('Solo se permiten números')" oninput="this.setCustomValidity(''); this.value = this.value.replace(/[^0-9]/g, '')">
             </div>
             <div class="form-group">
                 <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" max="<?php echo date('Y-m-d'); ?>" required>
             </div>
             <button type="submit">Guardar</button>
         </form>
