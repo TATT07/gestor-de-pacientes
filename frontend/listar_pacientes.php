@@ -42,7 +42,7 @@ try {
     </script>
 </head>
 <body>
-    <div class="container">
+    <div class="container list-container">
         <h1>Lista de Pacientes</h1>
         <?php if ($message): ?>
             <div class="message <?php echo $messageClass; ?>"><?php echo $message; ?></div>
