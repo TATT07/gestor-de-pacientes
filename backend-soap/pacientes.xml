@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pacientes>
+    <!-- Initial empty XML structure for patients -->
+<paciente><cedula>1234567890</cedula><nombres>Lisandro</nombres><apellidos>Thomas</apellidos><telefono>3219154671</telefono><fecha_nacimiento>2001-10-11</fecha_nacimiento></paciente><paciente><cedula>1234567899</cedula><nombres>diego andres</nombres><apellidos>garcia cote</apellidos><telefono>3234444444</telefono><fecha_nacimiento>2000-12-20</fecha_nacimiento></paciente><paciente><cedula>1234567888</cedula><nombres>natali </nombres><apellidos>medina </apellidos><telefono>3219154666</telefono><fecha_nacimiento>2006-06-12</fecha_nacimiento></paciente></pacientes>
